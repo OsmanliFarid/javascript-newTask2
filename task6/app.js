@@ -23,10 +23,10 @@ const func = () =>{
         
         
      }
-     let c = newArry.split("-")
+     let a  = newArry.split("-")
+     console.log(a);
      
-     console.log(c);
-     newArry.shift()
+     
      
      
 }
