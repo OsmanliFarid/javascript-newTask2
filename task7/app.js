@@ -21,7 +21,8 @@ const func = () =>{
         
         
     }
-      console.log(newNames);
+    return newNames
       
 }
-func()
+const a = func()
+console.log(a);

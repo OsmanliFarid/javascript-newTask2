@@ -1,6 +1,6 @@
 const func = () =>{
     let array = [1,2,3]
-    let array2 = [1,2,3,4]
+    let array2 = [1,2,3,4,5]
     let array_cre = array.concat(array2)
     let arrNew = []
     for(let i =0;i<array_cre.length;i++){
@@ -16,10 +16,11 @@ const func = () =>{
         }
         
     }
-    console.log(arrNew);
+    return arrNew
     
     
     
     
 }
-func()
+const a = func()
+console.log(a);
